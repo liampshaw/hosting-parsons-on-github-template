@@ -3,14 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Computation for Bioscientists: coding problems
+title: Computation for Bioscientists - coding problems
 ---
 # About this page
 
-These are **Parsons problems**. Your task is to shuffle around the lines of code into the correct solution. Each problem also includes some lines of code that are **incorrect** and shouldn't be included. Good luck!
+For each problem, your task is to shuffle around the lines of code into the correct solution. Some of the problems also include lines of code that are **incorrect** and shouldn't be included in your solution. Good luck!
 
-## Parsons 1 (Line Based Grader)
-Re-arrange the blocks below so they print out "Hello World!"
+## Hello World!
+Re-arrange the blocks below so they print out "Hello World!". 
 
 <div id="p1-sortableTrash" class="sortable-code"></div>
 <div id="p1-sortable" class="sortable-code"></div>
@@ -52,8 +52,8 @@ Re-arrange the blocks below so they print out "Hello World!"
 ## Counting k-mers
 A k-mer is a subsequence of length k. Construct a Python function that will count all the k-mers in a larger sequence and return the result as a dictionary.
 
-<div id="1532-sortableTrash" class="sortable-code"></div> 
-<div id="1532-sortable" class="sortable-code"></div> 
+<div id="pKmers-sortableTrash" class="sortable-code"></div> 
+<div id="pKmers-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
     <input id="1532-feedbackLink" value="Get Feedback" type="button" /> 
