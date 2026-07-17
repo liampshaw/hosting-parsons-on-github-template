@@ -78,7 +78,7 @@ A k-mer is a subsequence of length k. Construct a Python function that will coun
     "counts[kmer] = counts[kmer] + 1#distractor\n" +
     "return kmer#distractor";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "1532-sortable",
+    "sortableId": "pKmers-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -87,15 +87,15 @@ A k-mer is a subsequence of length k. Construct a Python function that will coun
     "lang": "en",
     "show_feedback": true,
     "python3": true,
-    "trashId": "1532-sortableTrash"
+    "trashId": "pKmers-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#1532-newInstanceLink").click(function(event){ 
+  $("#pKmers-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#1532-feedbackLink").click(function(event){ 
+  $("#pKmers-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
