@@ -61,8 +61,8 @@ A k-mer is a subsequence of length k. Construct a Python function that will coun
 <div id="pKmers-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="1532-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="1532-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="pKmers-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="pKmers-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
